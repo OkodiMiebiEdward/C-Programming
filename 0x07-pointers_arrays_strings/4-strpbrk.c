@@ -5,8 +5,6 @@
  * @accept: Argument of pointer explected
  * Return: 0 on successful completion
  */
- 
- 
 char *_strpbrk(char *s, char *accept)
 {
 	int digit;
