@@ -1,5 +1,7 @@
 #include "main.h"
 
+int original_recursion_sqrt(int n, int i);
+
 /**
  * _sqrt_recursion - returns the square root of number
  * @n: number whose square root will be looked at
@@ -7,7 +9,7 @@
  * Return: answer no be returned
  */
 
-int original_recursion_sqrt(int n, int i);
+
 
 int _sqrt_recursion(int n)
 {
@@ -19,7 +21,6 @@ int _sqrt_recursion(int n)
 
 /**
  * original_recursion_sqrt -  find the number recursively
- * 
  * @n: number whose square root is to be fetched
  * @i: number of times to be moved
  *
