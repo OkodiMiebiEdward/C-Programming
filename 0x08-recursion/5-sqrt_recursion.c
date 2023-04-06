@@ -28,8 +28,8 @@ int _sqrt_recursion(int n)
 int original_recursion_sqrt(int n, int i)
 {
 	if (i * i > n)
-		return (1);
+		return (-1);
 	if (i * i == n)
 		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
+	return (original_recursion_sqrt(n, i + 1));
 }
