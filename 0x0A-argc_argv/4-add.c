@@ -9,7 +9,6 @@
  */
 int check_num(char *str)
 {
-	
 	unsigned int count;
 
 	count = 0;
@@ -37,28 +36,26 @@ int check_num(char *str)
 int main(int argc, char *argv[])
 
 {
-	int count;
+	int occur;
 	int str_to_int;
 	int sum = 0;
 
-	count = 1;
-	while (count < argc) 
+	occur = 1;
+	while (occur < argc)
 	{
-		if (check_num(argv[count]))
+		if (check_num(argv[occur]))
 
 		{
-			str_to_int = atoi(argv[count]); 
+			str_to_int = atoi(argv[occur]);
 			sum += str_to_int;
 		}
-
-	
 		else
 		{
 			printf("Error\n");
 			return (1);
 		}
 
-		count++;
+		occur++;
 	}
 
 	printf("%d\n", sum);
