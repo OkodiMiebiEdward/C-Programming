@@ -11,7 +11,7 @@ int checker(char *s)
 {
 	int q, p, x;
 
-	q= 0;
+	q = 0;
 	x = 0;
 
 	for (p = 0; s[p] != '\0'; p++)
