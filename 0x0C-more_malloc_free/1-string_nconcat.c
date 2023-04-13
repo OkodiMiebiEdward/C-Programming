@@ -25,6 +25,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
         else
                 result = malloc(sizeof(char) * (stringA + stringB + 1));
 
+        if (!result)
+                return (NULL);
+
+        while (x < stringA)
+        {
+                result[x] = s1[x];
+                x++;
+        }
 
         while (n < stringB && x < (stringA + n))
                 result[x++] = s2[y++];
