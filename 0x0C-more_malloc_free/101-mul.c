@@ -59,7 +59,6 @@ void isValid(void)
  */
 int main(int argc, char *argv[])
 {
-	/*the entry point*/
 	char *stringA, *stringB;
 	int length1, length2, x, i, carry, digit1, digit2, *result, a = 0;
 
