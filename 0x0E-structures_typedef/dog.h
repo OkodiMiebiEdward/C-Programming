@@ -4,7 +4,7 @@
 /**
  * struct dog - a structure named dog(special type)
  * @name: this variable will store the name of the specific instance of the dog
- * @age: this will hold the age of the dog
+ * @age: this will hold the age
  * @owner: This will hold the owner of the dog
  */
 struct dog
