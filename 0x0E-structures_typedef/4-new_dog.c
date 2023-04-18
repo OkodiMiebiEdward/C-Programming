@@ -2,15 +2,13 @@
 #include "dog.h"
 
 /**
- * _checkLength - checks length of string
+ * checkLength - checks length of string
  * @s: the string argument
  * Return: the number of characters
  */
 int checkLength(char *s)
 {
-	int g;
-	
-	g = 0;
+	int g = 0;
 
 	while (s[g] != '\0')
 	{
