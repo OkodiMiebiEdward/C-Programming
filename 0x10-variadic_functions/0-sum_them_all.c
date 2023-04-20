@@ -19,6 +19,6 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(lst);
 
-	return (sum);
+	return (total);
 }
 
