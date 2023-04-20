@@ -5,7 +5,7 @@
  * struct op - A structure named op.
  * @op: Member for the operator
  * @f: Function
- * /
+ */
 
 typedef struct op
 {
