@@ -4,8 +4,8 @@
 /**
  * struct op - A structure named op.
  * @op: Member for the operator
- * @f: Function 
- */
+ * @f: Function
+ * /
 
 typedef struct op
 {
