@@ -23,13 +23,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		nsrp = va_arg(totalStrings, char *);
 
 		if (nsrp == NULL)
-		{
 			printf("(nil)");
-		}
-		else {
+		else
 			printf("%s", nsrp);
-		}
-
 		if (q != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
