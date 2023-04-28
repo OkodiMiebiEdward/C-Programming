@@ -9,11 +9,10 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t y;
+	size_t y = 0;
 
 	while ((h))
 	{
-		y = 0;
 		if (!h->str)
 			printf("[0] (nil)\n");
 		else
