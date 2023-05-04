@@ -15,7 +15,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	int x = 0;
 	int result = 0;
 
-	for (x = 89; x >= 0; x--)
+	for (x = 64; x >= 0; x--)
 	{
 		val = xorOp >> x;
 		if (val & 1)
