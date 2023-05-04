@@ -13,7 +13,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	/*bit returned at an index*/
 
 	if (index > 63)
-		return (1);
+		return (-1);
 
 	rqs = (n >> index) & 1;
 
